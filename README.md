@@ -2,8 +2,8 @@
 
 Trang web: https://luunhatquang.github.io/nhatluuquang.github.io/
 
-- Bài 1: https://luunhatquang.github.io/nhatluuquang.github.io/bai-1/
-- Bài 2: https://luunhatquang.github.io/nhatluuquang.github.io/bai-2/
+- Bài 3_1: https://luunhatquang.github.io/nhatluuquang.github.io/bai-3_1/
+- Bài 3_2: https://luunhatquang.github.io/nhatluuquang.github.io/bai-3_2/
 
 Mỗi thư mục bài chứa `index.html`, `style.css` đã sửa, `style-loi.css` gốc để đối chiếu, thư mục ảnh và `giai-thich.md` giải thích lỗi.
 

@@ -1,4 +1,4 @@
-# Bài 1 — Tìm và sửa lỗi CSS
+# Bài 3_1 — Tìm và sửa lỗi CSS
 
 Mở `trang.html` để xem bài đã sửa. Trang sử dụng `style.css`; `style-loi.css` là bản gốc để đối chiếu.
 
