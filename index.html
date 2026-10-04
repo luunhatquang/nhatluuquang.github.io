@@ -1,37 +1,35 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            background-color: #f0f2f5;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-        }
-        .container {
-            text-align: center;
-            background-color: #ffffff;
-            padding: 30px 50px;
-            border-radius: 12px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            color: #1a73e8;
-            margin: 0;
-            font-size: 2.5rem;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hai bài tìm và sửa lỗi CSS</title>
+<style>
+:root { --bg:#f4f1ea; --ink:#2b2b2b; --accent:#c0392b; --line:#d4cabc; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--ink); font-family:"Segoe UI",sans-serif; line-height:1.6; }
+main { max-width:880px; margin:0 auto; padding:80px 24px; }
+h1 { font-family:Georgia,serif; font-size:clamp(32px,6vw,56px); line-height:1.15; margin:0 0 24px; }
+p { margin:0 0 40px; font-size:18px; }
+nav { border-top:1px solid var(--line); }
+nav a { display:flex; align-items:center; justify-content:space-between; gap:24px; padding:28px 0; border-bottom:1px solid var(--line); color:inherit; text-decoration:none; font-size:24px; }
+nav a span { display:block; font-size:16px; margin-top:4px; }
+nav a:hover { color:var(--accent); }
+a:focus-visible { outline:3px solid var(--accent); outline-offset:6px; }
+footer { margin-top:40px; font-size:16px; }
+footer a { color:var(--accent); }
+@media(max-width:640px) { main { padding-top:48px; } nav a { font-size:22px; } }
+</style>
 </head>
 <body>
-    <div class="container">
-        <h1>Hello World</h1>
-    </div>
+<main>
+<h1>Tìm và sửa lỗi CSS</h1>
+<p>Hai bài thực hành về box model và position. Chọn bài để xem giao diện đã sửa.</p>
+<nav aria-label="Chọn bài tập">
+<a href="bai-1/"><div>Bài 1<span>Sửa bố cục, kích thước và vị trí các thành phần.</span></div><b aria-hidden="true">→</b></a>
+<a href="bai-2/"><div>Bài 2<span>Sửa menu sticky, thẻ rớt hàng và nhãn bị ảnh che.</span></div><b aria-hidden="true">→</b></a>
+</nav>
+<footer><a href="https://github.com/luunhatquang/nhatluuquang.github.io">Xem mã nguồn và giải thích trên GitHub</a></footer>
+</main>
 </body>
 </html>
